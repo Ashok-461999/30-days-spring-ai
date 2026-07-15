@@ -12,8 +12,7 @@ public class ChatController {
 
     private final ChatClient chatClient;
 
-    // Spring AI auto-configures a ChatClient.Builder
-    // from your application.yml — no manual wiring.
+
     public ChatController(ChatClient.Builder builder) {
         this.chatClient = builder
                 .defaultSystem("You are a concise, helpful assistant.")
