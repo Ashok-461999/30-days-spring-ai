@@ -1,4 +1,4 @@
-package com.ashok.springagents;
+package com.ashok.springagents.controller;
 
 import java.util.Map;
 
